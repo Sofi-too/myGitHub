@@ -1,0 +1,101 @@
+:root{
+    --color1: red;
+    --color2: green;
+}
+header, footer, section{
+    padding: 100px 0px;
+}
+header{
+    padding: 200px 0px;
+    background: url(photo/banner.jpg);
+}
+header, footer{
+    background-color: var(--color2);
+}
+.play{
+    background-color: var(--color1);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 30px auto 30px;
+    transition: all 0.2s ease;
+}
+.triangle{
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 10px 0px 10px 20px;
+    border-color: transparent transparent transparent var(--bs-white);
+    margin-left: 5px;
+}
+.button{
+    display: block;
+    max-width: 200px;
+    margin: 0px auto;
+    padding: 10px 30px;
+    color: var(--bs-white);
+    background-color: var(--color1);
+}
+.button:hover{
+    color: var(--color2);
+    background-color: var(--bs-white);
+}
+.about, .shedule, .author, .buy{
+    background-color: lightgray;
+}
+.about i{
+    font-size: 25px;
+    color: var(--color2);
+}
+.itd_circle{
+    margin: 0 auto 15px;
+    width: 70px;
+    height: 70px;
+    border: 3px solid var(--color2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    width: 100px;
+    height: 3px;
+    background-color: var(--color1);
+    margin: 15px auto 30px;
+}
+.forwhom h5{
+    padding: 50px;
+    border: 3px solid var(--color1);
+}
+.learning h5{
+    padding: 25px;
+    border: 3px solid var(--color1);
+}
+.author{
+    padding-bottom: 0px;
+}
+.itd_img{
+    max-width: 390px;
+}
+.rounded{
+    width: 40%;
+    border-radius: 50% !important;
+    border: 3px solid var(--color1);
+}
+.color1{
+    color: var(--color1);
+}
+.color2{
+    color: var(--color2);
+}
+.bg1{
+    background-color: var(--color1);
+}
+.bg2{
+    background-color: var(--color2);
+}
